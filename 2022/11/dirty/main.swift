@@ -5,6 +5,8 @@
 //  Created by Christopher Thielen on 12/10/22.
 //
 
+// DIRTY SOLUTION: This code was written against the clock in search of the answer.
+
 // This code solves the puzzle at https://adventofcode.com/2022/day/11
 
 import Foundation

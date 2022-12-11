@@ -5,6 +5,8 @@
 //  Created by Christopher Thielen on 12/10/22.
 //
 
+// This code solves the puzzle at https://adventofcode.com/2022/day/11
+
 import Foundation
 
 struct Monkey {
@@ -93,6 +95,7 @@ monkeys.append(Monkey(id: 7, items: [81, 58], operation: { oldWorryLevel in
 }, monkeyOnTestTrue: 3, monkeyOnTestFalse: 5))
 
 
+// Part one
 
 //for round in 1...20 {
 //    print("Round: \(round)")
@@ -129,7 +132,10 @@ monkeys.append(Monkey(id: 7, items: [81, 58], operation: { oldWorryLevel in
 
 // part one, right answer 119715
 
-// part two
+
+
+
+// Part two
 
 for round in 1...10000 {
     print("Round: \(round)")
